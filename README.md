@@ -1,4 +1,4 @@
-VASPsol: Effective Screening Model(ESM) for VASP
+Effective Screening Model(ESM) for VASP
 ==========================================
 
 **Authors:** Kiran Mathew and Richard Hennig
@@ -12,7 +12,7 @@ http://vaspsol.mse.cornell.edu/
 
 CONTENTS
 =============
-The *.F files form the crux of the solvation model. 
+The *.F files form the crux of the ESM model. 
 
 The patch file, *interface_patch_535*, links *.F files to the original VASP code version 5.3.5.
 
