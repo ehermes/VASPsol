@@ -12,9 +12,9 @@ http://vaspsol.mse.cornell.edu/
 
 CONTENTS
 =============
-The 2 **.F* files form the crux of the solvation model. 
+The *.F files form the crux of the solvation model. 
 
-The file, *interface_patch_535*, is the patch file for linking *_k.F files to the original VASP code version 5.3.5.
+The patch file, *interface_patch_535*, links *.F files to the original VASP code version 5.3.5.
 
 
 PREREQUISITES
