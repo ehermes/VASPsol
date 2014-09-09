@@ -12,7 +12,7 @@ http://vaspsol.mse.cornell.edu/
 
 CONTENTS
 =============
-The 2 files, *pot_lpcm_cav_k.F* and *pot_k.F*, form the crux of the solvation model. 
+The 2 **.F* files form the crux of the solvation model. 
 
 The file, *interface_patch_535*, is the patch file for linking *_k.F files to the original VASP code version 5.3.5.
 
