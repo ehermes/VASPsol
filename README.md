@@ -11,7 +11,7 @@ http://vaspsol.mse.ufl.edu/
 
 PREREQUISITES
 =============
-[VASP](http://www.vasp.at/) version 5.3.5.
+[VASP](http://www.vasp.at/) version 5.2.12 or 5.3.5 or 5.3.5.
 
 Compiler and library requirements are the same as that of VASP ([vasp wiki] (http://cms.mpi.univie.ac.at/wiki/index.ph\
 p/Installing_VASP))
@@ -19,7 +19,7 @@ p/Installing_VASP))
 INSTALL
 ========
 
-- Apply the interface patch to the original VASP source code.
+- Apply the appropriate interface patch to the original VASP source code. There are 3 patch files, one for each of the supported vasp versions.
 ```
     cd <VASP src directory>
     patch -p1 < <path to the interface patch file>
