@@ -11,7 +11,7 @@ http://vaspsol.mse.ufl.edu/
 
 PREREQUISITES
 =============
-[VASP](http://www.vasp.at/) version 5.3.5.
+[VASP](http://www.vasp.at/) version 5.2.12.
 
 Compiler and library requirements are the same as that of VASP ([vasp wiki] (http://cms.mpi.univie.ac.at/wiki/index.ph\
 p/Installing_VASP))
@@ -24,8 +24,8 @@ INSTALL
     cd <VASP src directory>
     patch -p1 < <path to the interface patch file>
 ```
-- After applying the patch, copy the *_k.F files to the VASP src directory:
-- In the original VASP Makefile, put pot_lpcm_k.o pot_k.o object file names before pot.o in that order.
+- After applying the patch, copy the *.F files to the VASP src directory:
+- In the original VASP Makefile, put pot_lpcm_k.o pot_k.o solvation.o object file names before pot.o in that order.
 - ``` make clean ```
 - ``` make ```
 
